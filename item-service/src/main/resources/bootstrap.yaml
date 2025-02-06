@@ -1,6 +1,6 @@
 spring:
   application:
-    name: cart-service
+    name: item-service
   profiles:
     active: dev
   cloud:
@@ -13,6 +13,3 @@ spring:
           - data-id: shared-log.yaml
           - data-id: shared-swagger.yaml
           - data-id: shared-seata.yaml
-feign:
-  okhttp:
-    enabled: true
